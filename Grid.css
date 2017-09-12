@@ -6,7 +6,6 @@
 .grid-cell{
     /* 0表示不自动扩大 */
     flex-grow: 1; 
-  
 }
 
 .grid-cell.col-1{
