@@ -1,4 +1,4 @@
-###基于FlexBox的栅格系统
+### 基于FlexBox的栅格系统
 
 简单的栅格系统。
 
@@ -23,5 +23,5 @@
 
 #### demo
 
-[demo](https://coldq.github.io/grid/)
+[demo](https://coldq.github.io/grid/index.html)
 
