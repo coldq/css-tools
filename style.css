@@ -1,0 +1,34 @@
+#demo{
+    margin: 0 48px;
+}
+
+#demo > .grid {
+    margin: 24px 0;
+}
+#demo .grid-cell{
+    text-align: center;
+    min-height: 60px;
+
+}
+.grid > .grid-cell:nth-child(2n+1){
+    background-color: #e1e7c8;
+}
+.grid > .grid-cell:nth-child(2n+2){
+    background-color: #d9d9d9;
+}
+.cell-100{
+    height: 100px;
+}
+.cell-80{
+    height: 80px;
+}
+
+.cell-130{
+    height: 130px;
+}
+.cell-160{
+    height: 160px;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,120 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-cell{
+    /* 0表示不自动扩大 */
+    flex-grow: 1; 
+  
+}
+
+.grid-cell.col-1{
+    flex: 0 0 8.3333%;
+}
+.grid-cell.col-2{
+    flex: 0 0 16.6667%;
+}
+.grid-cell.col-3{
+    flex: 0 0 25%;
+}
+.grid-cell.col-4{
+    flex: 0 0 33.3333%;
+}
+.grid-cell.col-5{
+    flex: 0 0 41.6667%;
+}
+.grid-cell.col-6{
+    flex: 0 0 50%;
+}
+.grid-cell.col-7{
+    flex: 0 0 58.33333%;
+}
+.grid-cell.col-8{
+    flex: 0 0 66.6667%;
+}
+.grid-cell.col-9{
+    flex: 0 0 75%;
+}
+.grid-cell.col-10{
+    flex: 0 0 83.3333%;
+}
+.grid-cell.col-11{
+    flex: 0 0 91.6667%;
+}
+.grid-cell.col-12{
+    flex: 0 0 100%;
+}
+
+/* 
+align-items: 项目在交叉轴上如何对齐。
+flex-start：交叉轴的起点对齐。
+flex-end：交叉轴的终点对齐。
+center：交叉轴的中点对齐。
+baseline: 项目的第一行文字的基线对齐。
+stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
+ */
+.grid--top {
+    align-items: flex-start;
+}
+  
+.grid--bottom {
+    align-items: flex-end;
+}
+  
+.grid--center {
+    align-items: center;
+}
+.grid--baseline{
+    align-items: baseline;
+}
+
+/* IE修正 */
+.grid{
+    overflow: hidden\9;
+}
+
+.grid-cell{
+    /*IE6、7添加hasLayout*/
+    *zoom:1;
+    /*IE6修正*/
+    _display: inline;
+    float: left\9;
+}
+
+.grid-cell.col-1{
+    width: 8.3333%\9;
+}
+.grid-cell.col-2{
+    width: 16.6667%\9;
+}
+.grid-cell.col-3{
+    width: 25%\9;
+}
+.grid-cell.col-4{
+    width: 33.3333%\9;
+}
+.grid-cell.col-5{
+    width: 41.6667%\9;
+}
+.grid-cell.col-6{
+    width: 50%\9;
+}
+.grid-cell.col-7{
+    width: 58.33333%\9;
+}
+.grid-cell.col-8{
+    width: 66.6667%\9;
+}
+.grid-cell.col-9{
+    width: 75%\9;
+}
+.grid-cell.col-10{
+    width: 83.3333%\9;
+}
+.grid-cell.col-11{
+    width: 91.6667%\9;
+}
+.grid-cell.col-12{
+    width: 100%\9;
+}

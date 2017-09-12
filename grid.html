@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+     <!-- 以上代码IE=edge告诉IE使用最新的引擎渲染网页，chrome=1则可以激活Chrome Frame.-->
+
+    <title>栅格系统</title>
+    <link rel="stylesheet" type="text/css" href="grid.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<h2>栅格系统</h2>
+<div id="demo">
+    <div class="grid">
+        <div class="grid-cell">均分</div>
+        <div class="grid-cell">均分</div>
+        <div class="grid-cell">均分</div>
+        <div class="grid-cell">均分</div>       
+    </div>
+    <div class="grid">
+        <div class="grid-cell col-3">3/12</div>
+        <div class="grid-cell col-2">2/12</div>
+        <div class="grid-cell">自适应</div>
+        <div class="grid-cell col-6">6/12</div>       
+    </div>
+
+    <div class="grid">
+        <div class="grid grid-cell col-7">
+            <div class="grid-cell col-4">嵌套</div>
+            <div class="grid-cell col-4">嵌套</div>
+            <div class="grid-cell col-4">嵌套</div>
+        </div>
+        <div class="grid-cell col-5">4/12</div>       
+    </div>
+
+    <div class="grid">
+        <div class="grid-cell col-6">
+            自动和右边盒子同高度
+        </div>
+        <div class="grid-cell col-6 cell-100">
+            <div>这个盒子的高度设置为100px</div>    
+        </div>       
+    </div>
+
+    <div class="grid grid--top">
+        <div class="grid-cell col-3 cell-80">
+            顶部对齐
+        </div>
+        <div class="grid-cell col-3 cell-160">
+            顶部对齐
+        </div>
+        <div class="grid-cell col-3 cell-100">
+            顶部对齐  
+        </div> 
+        <div class="grid-cell col-3 cell-130">
+            顶部对齐   
+         </div>       
+    </div>
+
+    <div class="grid grid--center">
+        <div class="grid-cell col-3 cell-80">
+            中点对齐
+        </div>
+        <div class="grid-cell col-3 cell-160">
+            中点对齐
+        </div>
+        <div class="grid-cell col-3 cell-100">
+            中点对齐  
+        </div> 
+        <div class="grid-cell col-3 cell-130">
+            中点对齐   
+        </div>       
+    </div>
+    <div class="grid grid--bottom">
+        <div class="grid-cell col-3 cell-80">
+            底部对齐
+        </div>
+        <div class="grid-cell col-3 cell-160">
+            底部对齐
+        </div>
+        <div class="grid-cell col-3 cell-100">
+            底部对齐  
+        </div> 
+        <div class="grid-cell col-3 cell-130">
+            底部对齐   
+        </div>       
+    </div>
+</div>
+</body>
+</script>
+</html>
