@@ -25,7 +25,7 @@
 
 #### demo
 
-[demo](https://coldq.github.io/grid/index.html)
+[demo](https://coldq.github.io/grid)
 
 ####  兼容测试
 
